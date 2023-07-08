@@ -1,0 +1,10 @@
+{
+  "source_path": "<downloads path>",
+  "base": "<change this to the location where everything gets sent to>",
+  "paths": {
+    "zip": ["zip", "rar"],
+    "image": ["jpg", "jpeg", "png", "gif", "bmp"],
+    "pdf": ["pdf"],
+    "exe": ["exe", "msi"]
+  }
+}
