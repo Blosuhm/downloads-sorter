@@ -19,11 +19,11 @@ The config has some properties:
 .
 ├── zip/
 │   ├── 2023-01/
-│   │ ├── file.zip
-│   │ ├── name.zip
-│   │ └── something.rar
+│   │   ├── file.zip
+│   │   ├── name.zip
+│   │   └── something.rar
 │   └── 2023-02/
-│         └── bananas.zip
+│       └── bananas.zip
 └── exe/
     └── 2023-02/
         └── executable.exe
