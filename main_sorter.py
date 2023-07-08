@@ -36,8 +36,6 @@ def move_files(extension, destination) -> None:
         if f.endswith(f".{extension}")
     ]
 
-    print("Files to move: ", files_in_source)
-
     if not files_in_source:
         return
     create_dirs(destination_with_date)
@@ -60,8 +58,6 @@ def move_to_destination(destination: str, extensions: list[str]) -> None:
 
 
 def main() -> None:
-    print("Source: ", SOURCE)
-    print("Base: ", BASE)
     while True:
         for destination, extensions in CONFIG["paths"].items():
             move_to_destination(destination, extensions)
